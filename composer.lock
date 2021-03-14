@@ -4,8 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1164f1acf84e9936d167ca128dfbb9a4",
+    "content-hash": "b06a9475ec44abcf2f51f23fc2763670",
     "packages": [
+        {
+            "name": "adejorosam/laravel-flutterwave-webhook",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adejorosam/laravel-flutterwave-webhook.git",
+                "reference": "972bbb4eb12e53803d0529c860fe330767987c57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adejorosam/laravel-flutterwave-webhook/zipball/972bbb4eb12e53803d0529c860fe330767987c57",
+                "reference": "972bbb4eb12e53803d0529c860fe330767987c57",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "php": "^7.1",
+                "spatie/laravel-webhook-client": "^2.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Adejorosam\\LaravelFlutterwaveWebhook\\LaravelFlutterwaveWebhookServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Adejorosam\\LaravelFlutterwaveWebhook\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samson Adejoro",
+                    "email": "samsonadejoro@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle Flutterwave Webhooks in a Laravel application",
+            "homepage": "https://github.com/adejorosam/laravel-flutterwave-webhook",
+            "keywords": [
+                "adejorosam",
+                "laravel-flutterwave-webhook"
+            ],
+            "time": "2020-10-05T11:21:41+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "1.3.0",
